@@ -3,7 +3,7 @@
 This system takes a child-friendly story request (ages 5–10), generates a draft, judges it against a rubric, revises it, applies a quick safety/style pass, accepts a one-shot user feedback edit, and saves the final story to stories/.
 
 ---
-## Block Diagram (Mermaid)
+## Block Diagram
 
 ```
 +----------------+        +-----------------------+        +-------------------+
