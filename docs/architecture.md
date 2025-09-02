@@ -1,4 +1,4 @@
-#Bedtime Story Generator – Architecture
+# Bedtime Story Generator – Architecture
 
 This system takes a child-friendly story request (ages 5–10), generates a draft, judges it against a rubric, revises it, applies a quick safety/style pass, accepts a one-shot user feedback edit, and saves the final story to stories/.
 
@@ -174,7 +174,7 @@ User/CLI        Storyteller       OpenAI GPT        Judge           Revise      
 2. Run the tests from the project root:  
 ```python -m pytest -q```
 
-###Notes:
+### Notes:
 - If you forget to install python-dotenv, imports like from dotenv import load_dotenv will fail.
 - The tests include:
   - Safety checks (tests/test_safety.py)
